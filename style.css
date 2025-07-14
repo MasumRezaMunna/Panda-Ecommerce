@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between ;
+}
+.Search-Parent{
+    position: relative;
+    color: #bababa;
+}
+.Search-Parent input{
+    border-radius: 66px;
+    background-color: rgb(241, 241, 241);
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+}
+.Search-Parent i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 16px;
+}
