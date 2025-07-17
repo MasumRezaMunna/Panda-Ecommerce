@@ -157,3 +157,24 @@ nav{
     font-weight: bold;
     font-size: 36px;
 }
+.contact-inp-btn-parent input{
+    border: none;
+    padding: 10px 60px;
+    
+}
+.contact-us-parent{
+    background-color: #fff2f1;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.contact-inp-btn-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(254, 234, 233);;
+}
